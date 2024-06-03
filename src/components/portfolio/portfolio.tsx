@@ -13,38 +13,32 @@ const Portfolio = () => {
       <ul className={styles.list}>
         <li>
           <Card
-            img="/img/works/youtube-clone.jpg"
-            title="YouTube"
-            description="Youtube clone using rapid api - demo."
-            href="https://youtube-clone-nailheart.vercel.app"
-            githubUrl="https://github.com/Nailheart/youtube-clone"
-            topics={['react', 'typescript', 'rapid-api', 'sass']}
+            img="/img/works/kussin.png"
+            title="Kussin"
+            description="Kussin eCommerce und online marketing"
+            href="https://kussin.de"
+            githubUrl="#private"
+            topics={['golang', 'react', 'tailwindcss']}
           />
         </li>
         <li>
           <Card
-            img="/img/works/taskify.jpg"
-            title="Taskify"
-            description="Task manager to keep track of your goals."
-            href="https://taskify-ashen-delta.vercel.app/"
-            githubUrl="https://github.com/Nailheart/taskify"
-            topics={['nextjs', 'prisma', 'typescript', 'stripe', 'tailwindcss']}
+            img="/img/works/nftmarket.png"
+            title="Test NFT Marketplace"
+            description="NFT Marketplace test project"
+            href="https://athene-nft-marketplace.vercel.app/"
+            githubUrl="https://github.com/athene227/nft-marketplace"
+            topics={['nextjs', 'tailwindcss']}
           />
         </li>
         <li>
           <Card
-            img="/img/works/chatiko.jpg"
-            title="Chatiko"
-            description="Realtime chat app."
-            githubUrl="https://github.com/Nailheart/chatiko"
-            topics={[
-              'nextjs',
-              'typescript',
-              'pusher',
-              'upstash',
-              'redis',
-              'tailwindcss',
-            ]}
+            img="/img/works/nftonpulse.png"
+            title="NFTOnPulse"
+            description="NFT Marketplace"
+            href="https://nftonpulse.io"
+            githubUrl="#private"
+            topics={['node', 'react', 'tailwindcss', 'mongodb', 'solidity']}
           />
         </li>
       </ul>

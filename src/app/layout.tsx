@@ -11,7 +11,7 @@ const nunito = Nunito({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Portfolio',
-  description: 'Welcome to Yaroslav Lebedenko portfolio',
+  description: 'Welcome to Osvald Laudrisen portfolio',
   keywords: 'web development, front-end development, html, css, scss, javascript, react, next, gulp',
   icons: {
     icon: [

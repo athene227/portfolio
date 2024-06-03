@@ -11,7 +11,7 @@ type Props = {
 const Logo: FC<Props> = ({ className }) => {
   return (
     <Link className={cn(styles.logo, className)} href="/">
-      <span>YLebedenko.</span>
+      <span>OLaudrisen.</span>
     </Link>
   );
 };

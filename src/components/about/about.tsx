@@ -7,15 +7,25 @@ import styles from './styles.module.scss';
 
 const About = () => {
   const skills: Skill[] = [
-    { title: 'HTML', iconName: 'html', href: 'https://html.spec.whatwg.org/multipage/' },
-    { title: 'CSS', iconName: 'css', href: 'https://www.w3.org/Style/CSS/' },
-    { title: 'JavaScript', iconName: 'js', href: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/' },
+    { title: 'Go', iconName: 'golang', href: 'https://www.go.dev/' },
+    { title: 'Rust', iconName: 'rust', href: 'https://www.rust-lang.org/' },
     { title: 'TypeScript', iconName: 'typescript', href: 'https://www.typescriptlang.org/' },
     { title: 'Next.js', iconName: 'nextjs', href: 'https://nextjs.org/' },
     { title: 'React', iconName: 'react', href: 'https://react.dev/' },
+    { title: 'Vue', iconName: 'vue', href: 'https://vuejs.org/' },
+    { title: 'Svelte', iconName: 'svelte', href: 'https://svelte.dev/' },
+    { title: 'TailwindCSS', iconName: 'tailwindcss', href: 'https://tailwindcss.com/' },
     { title: 'Sass', iconName: 'sass', href: 'https://sass-lang.com/' },
     { title: 'Gulp', iconName: 'gulp', href: 'https://gulpjs.com/' },
     { title: 'Figma', iconName: 'figma', href: 'https://www.figma.com/' },
+    { title: 'GraphQL', iconName: 'graphql', href: 'https://graphql.org/' },
+    { title: 'MongoDB', iconName: 'mongodb', href: 'https://mongodb.com/' },
+    { title: 'MySQL', iconName: 'mysql', href: 'https://mysql.com/' },
+    { title: 'Sequelize', iconName: 'sequelize', href: 'https://sequelize.org/' },
+    { title: 'Firebase', iconName: 'firebase', href: 'https://firebase.google.com/' },
+    { title: 'Docker', iconName: 'docker', href: 'https://docker.com/' },
+    { title: 'AWS', iconName: 'aws', href: 'https://aws.amazon.com/' },
+    { title: 'Azure', iconName: 'azure', href: 'https://azure.microsoft.com/' },
   ];
 
   return (
@@ -31,7 +41,7 @@ const About = () => {
 
         <div className={styles.content}>
           <h2 className={styles.title}>About <span>Me</span></h2>
-          <p className={styles.text}>Greetings! I&apos;m <span>Yaroslav Lebedenko</span>, a dedicated frontend developer driven by my love for crafting fully responsive and user-centric websites. My expertise lies in frontend technologies, including <span>HTML</span>, <span>CSS</span>, and <span>JavaScript</span>. Currently, I&apos;m deeply engaged with <span>React</span>, <span>Next.js</span>, and <span>TypeScript</span>, pushing the boundaries of what can be achieved. I maintain a perpetual commitment to honing my skills and keeping pace with the ever-evolving landscape of industry trends.</p>
+          <p className={styles.text}>Greetings! I&apos;m <span>Osvald Laudrisen</span>, a dedicated fullstack developer driven by my love for crafting fully responsive and user-centric websites. My expertise lies in both backend and frontend technologies, including <span>Go</span>, <span>Rust</span>, <span>Solidity</span>, <span>PHP</span>, <span>HTML</span>, <span>CSS</span>, and <span>JavaScript</span>. Currently, I&apos;m deeply engaged with <span>gin</span>, <span>Next.js</span>, and <span>TypeScript</span>, pushing the boundaries of what can be achieved. I maintain a perpetual commitment to honing my skills and keeping pace with the ever-evolving landscape of industry trends.</p>
         </div>
       </div>
 

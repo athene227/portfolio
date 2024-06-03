@@ -20,11 +20,11 @@ const Contacts = () => {
               <h3 className={styles.infoTitle}>Mail</h3>
               <Link
                 className={styles.link}
-                href="mailto:nailheart4@gmail.com"
+                href="mailto:osvaldlaudrisen@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                nailheart4@gmail.com
+                osvaldlaudrisen@gmail.com
               </Link>
             </div>
           </div>
@@ -32,7 +32,7 @@ const Contacts = () => {
             <Icon className={styles.icon} name="location" size={30} />
             <div>
               <h3 className={styles.infoTitle}>Location</h3>
-              <span>Ukraine, Dnipro region</span>
+              <span>Dublin, Ireland</span>
             </div>
           </div>
         </div>
@@ -40,33 +40,45 @@ const Contacts = () => {
         <div className={styles.social}>
           <SocialLink
             className={styles.socialLink}
-            href="https://github.com/Nailheart"
+            href="https://github.com/osvald-laudrisen"
             iconName="github"
             title="github"
           />
           <SocialLink
             className={styles.socialLink}
-            href="https://join.skype.com/invite/D5WcE8DUXPR9"
+            href="https://join.skype.com/invite/ampzcgqDBekT"
             iconName="skype"
             title="skype"
           />
-          <SocialLink
+          {/* <SocialLink
             className={styles.socialLink}
             href="https://www.linkedin.com/in/yaroslav-lebedenko-9b1bb7233/"
             iconName="linkedIn"
             title="linkedIn"
-          />
-          <SocialLink
+          /> */}
+          {/* <SocialLink
             className={styles.socialLink}
             href="https://t.me/Nailheart"
             iconName="telegram"
             title="telegram"
+          /> */}
+          <SocialLink
+            className={styles.socialLink}
+            href="https://mastodon.social/@osvaldlaudrisen"
+            iconName="mastodon"
+            title="mastodon"
           />
           <SocialLink
             className={styles.socialLink}
-            href="https://codepen.io/Nailheart"
-            iconName="codepen"
-            title="codepen"
+            href="https://www.reddit.com/user/osvaldlaudrisen/"
+            iconName="reddit"
+            title="reddit"
+          />
+          <SocialLink
+            className={styles.socialLink}
+            href="https://www.discordapp.com/users/1163872551676686387/"
+            iconName="discord"
+            title="discord"
           />
         </div>
       </div>
